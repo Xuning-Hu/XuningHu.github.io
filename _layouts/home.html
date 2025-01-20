@@ -7,8 +7,24 @@ layout: default
     {{ content }}
   </div>
   <div class="col-md-6">
+    <!-- 图片 -->
     <img src="{{ site.github.url }}/assets/img/index.jpg" alt="Home" width="100%">
-  </div>
+    
+    <!-- 图片下方的联系信息 -->
+    <p style="line-height: 1.8; text-align: center; margin-top: 10px;">
+        <!-- 邮件链接 -->
+        <a href="Xuning.Hu22@student.xjtlu.edu.cn">
+            <img src="{{ site.github.url }}/assets/img/gmail.png" width="20px" style="margin-bottom:-3px"> Mail
+        </a>&nbsp;&nbsp;&nbsp;&nbsp;
+
+        <!-- Google Scholar链接 -->
+        <a href="https://scholar.google.com/citations?user=WNMJNnMAAAAJ&hl=en&oi=ao" target="blank">
+            <img src="{{ site.github.url }}/assets/img/google_scholar.png" width="20px" style="margin-bottom:-3px">
+            Google Scholar
+        </a>
+    </p>
+</div>
+
 </div>
 <hr>
  {% include news.html %}
